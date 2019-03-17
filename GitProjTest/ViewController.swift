@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(message)
         print(reverse(text: "Anil"))
+        print("Successfully Pushed into Github from Xcode")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
