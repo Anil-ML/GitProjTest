@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         print(message)
         print(reverse(text: "Anil"))
         print("Successfully Pushed into Github from Xcode")
+        print("Testing direct Commit+Push to Git")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
