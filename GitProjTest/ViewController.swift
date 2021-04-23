@@ -17,11 +17,16 @@ class ViewController: UIViewController {
         print(reverse(text: "Anil"))
         print("Successfully Pushed into Github from Xcode")
         print("Testing direct Commit+Push to Git")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     func reverse(text: String) -> String {
         return String(text.reversed())
+    }
+    
+    func createBranch(){
+        print("pushing to branch2")
     }
 
 }
