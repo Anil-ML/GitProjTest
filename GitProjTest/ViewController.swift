@@ -23,6 +23,10 @@ class ViewController: UIViewController {
     func reverse(text: String) -> String {
         return String(text.reversed())
     }
+    
+    func printSuccess(){
+        debugPrint("Successfully created Branch and testing whether it reflect in Remotes folder")
+    }
 
 }
 
